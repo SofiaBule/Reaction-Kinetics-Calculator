@@ -1,0 +1,9 @@
+def reaction_rate(k, A, B):
+    return k * A * B
+
+# Example usage:
+k = 0.1  # Rate constant
+A = 0.01  # Concentration of reactant A (M)
+B = 0.02  # Concentration of reactant B (M)
+rate = reaction_rate(k, A, B)
+print("Reaction rate:", rate, "M/s")
